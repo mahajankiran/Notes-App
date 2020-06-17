@@ -33,7 +33,6 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input
@@ -48,6 +47,33 @@
         </form>
       </div>
     </nav>
+
+    <div class="container my-3">
+      <h3>Welcome to Notes App</h3>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Add Note</h5>
+          <div class="form-group">
+            <textarea class="form-control" id="addTxt" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary" id="addBtn">Add Note</button>
+        </div>
+      </div>
+       <hr>
+      <h2>Your Notes</h2>
+      <hr>
+      <div  id ="notes" class="row container-fluid">
+        <div class="card" style="width: 18rem;">
+            
+            <div class="card-body">
+              <h5 class="card-title">Note</h5>
+              <p class="card-text" ></p>
+              <a href="#" class="btn btn-primary">Delete Node</a>
+            </div>
+          </div>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
